@@ -2,7 +2,7 @@
   <div class="page">
     <Header />
     <NavBar />
-    <b-container fluid class="container">
+    <b-container fluid>
       <div class="logo-container">
         <Logo />
       </div>
@@ -39,7 +39,7 @@ export default {}
   }
 }
 
-.container {
+.container-fluid {
   flex-grow: 1;
 }
 
