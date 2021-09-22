@@ -2,8 +2,13 @@
   <div class="page">
     <Header />
     <NavBar />
-    <b-container class="container">
-      <slot></slot>
+    <b-container fluid class="container">
+      <div class="logo-container">
+        <Logo />
+      </div>
+      <b-container class="text-container">
+        <slot></slot>
+      </b-container>
     </b-container>
     <Footer />
   </div>
@@ -18,9 +23,27 @@ export default {}
   display: flex;
   flex-direction: column;
   height: 100vh;
+  position: relative;
 }
+
+@media (max-width: 1080px) {
+  .logo-container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1080px) {
+  .logo-container {
+    position: absolute;
+  }
+}
+
 .container {
-  padding-top: 2em;
   flex-grow: 1;
+}
+
+.text-container {
+  padding-top: 2em;
 }
 </style>
