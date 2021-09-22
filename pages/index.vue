@@ -49,25 +49,25 @@
       <ImageLink 
         text="Wanneer" 
         to="/wanneer" 
-        :image="require('../assets/wanneer.jpg')" 
+        :image="require('../assets/wanneer.webp')" 
         color="#41803c"
       />
       <ImageLink 
         text="Werkwijze" 
         to="/werkwijze" 
-        :image="require('../assets/werkwijze.jpg')" 
+        :image="require('../assets/werkwijze.webp')" 
         color="#f4bb31"
       />
       <ImageLink 
         text="Over mij" 
         to="/over-mij" 
-        :image="require('../assets/over-mij.jpeg')" 
+        :image="require('../assets/over-mij.webp')" 
         color="#CC74A0"
       />
       <ImageLink 
         text="Contact" 
         to="/contact" 
-        :image="require('../assets/contact.png')" 
+        :image="require('../assets/contact.webp')" 
         color="#0084ca"
       />
     </b-row>
