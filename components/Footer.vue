@@ -1,0 +1,18 @@
+<template>
+  <footer>
+    <div>2021 Copyright © Rosier kindercoaching | Kvk: 75873486</div>
+  </footer>
+</template>
+
+<style scoped>
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 3em;
+  background-color: #01b2ab !important;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 3em;
+}
+</style>
