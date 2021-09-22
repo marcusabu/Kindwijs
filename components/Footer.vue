@@ -9,7 +9,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 3em;
+  min-height: 4em;
   background-color: #01b2ab !important;
   text-align: center;
   color: rgba(255, 255, 255, 0.7);

@@ -2,7 +2,7 @@
   <b-col cols="6" class="container">
     <a :href="to">
       <h4>{{ text }}</h4>
-      <img class="image" v-bind:style="style" />
+      <div class="image" v-bind:style="style" :alt="altText" />
     </a>
   </b-col>
 </template>
@@ -28,6 +28,9 @@ export default {
     },
   },
   computed: {
+    altText() {
+      return `${this.image} plaatje`
+    },
     style() {
       return {
         'background-image': `url('${this.image}')`,
