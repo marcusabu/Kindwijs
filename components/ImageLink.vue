@@ -1,10 +1,10 @@
 <template>
-  <b-col cols="6" class="container">
+  <div>
     <a :href="to">
       <h4>{{ text }}</h4>
       <div class="image" v-bind:style="style" :alt="altText" />
     </a>
-  </b-col>
+  </div>
 </template>
 
 <script>
@@ -46,7 +46,10 @@ export default {
 </script>
 
 <style scoped>
-.container {
-  text-align: center;
+a {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  padding-bottom: 3em;
 }
 </style>

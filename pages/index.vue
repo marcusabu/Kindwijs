@@ -46,30 +46,38 @@
       laatste gebeurt wanneer de aanmelding via school verloopt.
     </p>
     <b-row class="image-links">
-      <ImageLink 
-        text="Wanneer" 
-        to="/wanneer" 
-        :image="require('../assets/wanneer.webp')" 
-        color="#41803c"
-      />
-      <ImageLink 
-        text="Werkwijze" 
-        to="/werkwijze" 
-        :image="require('../assets/werkwijze.webp')" 
-        color="#f4bb31"
-      />
-      <ImageLink 
-        text="Over mij" 
-        to="/over-mij" 
-        :image="require('../assets/over-mij.webp')" 
-        color="#CC74A0"
-      />
-      <ImageLink 
-        text="Contact" 
-        to="/contact" 
-        :image="require('../assets/contact.webp')" 
-        color="#0084ca"
-      />
+      <b-col md="6" sm="12">
+        <ImageLink 
+          text="Wanneer" 
+          to="/wanneer" 
+          :image="require('../assets/wanneer.webp')" 
+          color="#41803c"
+        />
+      </b-col>
+      <b-col md="6" sm="12">
+        <ImageLink 
+          text="Werkwijze" 
+          to="/werkwijze" 
+          :image="require('../assets/werkwijze.webp')" 
+          color="#f4bb31"
+        />
+      </b-col>
+      <b-col md="6" sm="12">
+        <ImageLink 
+          text="Over mij" 
+          to="/over-mij" 
+          :image="require('../assets/over-mij.webp')" 
+          color="#CC74A0"
+        />
+      </b-col>
+      <b-col md="6" sm="12">
+        <ImageLink 
+          text="Contact" 
+          to="/contact" 
+          :image="require('../assets/contact.webp')" 
+          color="#0084ca"
+        />
+      </b-col>
     </b-row>
   </Container>
 </template>
@@ -82,6 +90,6 @@ export default {
 
 <style scoped>
 .image-links {
-  padding: 0 10em;
+  padding-top: 3em;
 }
 </style>

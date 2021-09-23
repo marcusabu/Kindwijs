@@ -26,14 +26,14 @@ export default {}
   position: relative;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1200px) {
   .logo-container {
     display: flex;
     justify-content: center;
   }
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 1200px) {
   .logo-container {
     position: absolute;
   }
