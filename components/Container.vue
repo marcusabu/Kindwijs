@@ -45,5 +45,6 @@ export default {}
 
 .text-container {
   padding-top: 2em;
+  max-width: 55em;
 }
 </style>

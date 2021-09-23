@@ -6,7 +6,7 @@
 export default {}
 </script>
 
-<style>
+<style scoped>
 img {
   padding-left: 15px;
   margin-top: 20px;

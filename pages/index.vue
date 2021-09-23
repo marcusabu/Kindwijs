@@ -1,6 +1,6 @@
 <template>
   <Container>
-    <p><b>Welkom bij Kindwijs kindercoaching</b></p>
+    <h2>Welkom bij Kindwijs kindercoaching</h2>
     <p>
       Kindwijs kindercoaching biedt begeleiding aan kinderen die om
       verschillende redenen problemen met zichzelf en/of de omgeving ervaren.
@@ -16,7 +16,7 @@
       bij het kind en bij de hulpvraag. De hulp van ouders kan hierbij niet
       gemist worden.
     </p>
-    <p><b>Wie en waarom?</b></p>
+    <h3>Wie en waarom?</h3>
     <p>
       Kinderen tussen 5 en 16 jaar kunnen hier terecht bij het leren van de
       volgende vaardigheden:
@@ -33,13 +33,13 @@
         <li>Het makkelijker in slaap komen</li>
       </ul>
     </p>
-    <p><b>Hoe lang?</b></p>
+    <h3>Hoe lang?</h3>
     <p>
       Kindercoaching kan bestaan uit één enkele sessies of een aantal sessies.
       Te denken valt aan 4 tot 6 sessies. De begeleiding duurt gemiddeld een
       uur.
     </p>
-    <p><b>Waar?</b></p>
+    <h3>Waar?</h3>
     <p>
       De begeleiding kan plaatsvinden bij mij in de praktijk in Hoogvliet
       Rotterdam, indien gewenst bij u thuis of op de school van uw kind. Dit
