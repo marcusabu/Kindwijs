@@ -2,7 +2,7 @@
   <div>
     <a :href="to">
       <h4>{{ text }}</h4>
-      <div class="image" v-bind:style="style" :alt="altText" />
+      <div class="image" :style="style" :alt="altText" />
     </a>
   </div>
 </template>
