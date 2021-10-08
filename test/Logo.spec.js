@@ -1,9 +1,9 @@
 import { shallowMount } from '@vue/test-utils'
-import Footer from '@/components/Footer.vue'
+import Logo from '@/components/Logo.vue'
 
-describe('Footer', () => {
+describe('Logo', () => {
   it('matches the snapshot', () => {
-    const wrapper = shallowMount(Footer)
+    const wrapper = shallowMount(Logo)
     expect(wrapper).toMatchSnapshot()
   })
 })
