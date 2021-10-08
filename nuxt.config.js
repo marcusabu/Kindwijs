@@ -6,7 +6,7 @@ export default {
   head: {
     title: 'Kindwijs',
     htmlAttrs: {
-      lang: 'nl'
+      lang: 'nl',
     },
     meta: [
       { charset: 'utf-8' },
@@ -14,25 +14,23 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'Kindwijs kindercoaching biedt begeleiding aan kinderen die om verschillende redenen problemen met zichzelf en/of de omgeving ervaren'
+        content:
+          'Kindwijs kindercoaching biedt begeleiding aan kinderen die om verschillende redenen problemen met zichzelf en/of de omgeving ervaren',
       },
-      { name: 'format-detection', content: 'telephone=no' }
+      { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '~/assets/fonts/kirsten.css',
     '~/assets/css/styles.css',
-    '~/assets/css/timeline.css'
+    '~/assets/css/timeline.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-  ],
+  plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -41,7 +39,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    '@nuxtjs/google-analytics'
+    '@nuxtjs/google-analytics',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -51,10 +49,9 @@ export default {
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
-  },
+  build: {},
 
   googleAnalytics: {
-    id: 'UA-76519903-5'
-  }
+    id: 'UA-76519903-5',
+  },
 }
