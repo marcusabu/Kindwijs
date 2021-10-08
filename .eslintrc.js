@@ -10,6 +10,7 @@ module.exports = {
   },
   extends: ['@nuxtjs', 'plugin:nuxt/recommended', 'prettier'],
   plugins: [],
+  ignorePatterns: ['.nuxt', 'node_modules', 'dist'],
   // add your custom rules here
   rules: {},
 }

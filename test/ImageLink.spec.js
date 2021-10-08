@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import { shallowMount } from '@vue/test-utils'
+import { BootstrapVue } from 'bootstrap-vue'
 import ImageLink from '@/components/ImageLink.vue'
-import BootstrapVue from 'bootstrap-vue'
 
 Vue.use(BootstrapVue)
 
