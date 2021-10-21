@@ -17,7 +17,7 @@
         </div>
         <div class="row">
           <div class="col-7">Kindercoaching sessie</div>
-          <div class="col-5">€ 80 per uur</div>
+          <div class="col-5">€ 60 per uur</div>
         </div>
         <br />
         <b>Tarieven oudercoaching</b>
