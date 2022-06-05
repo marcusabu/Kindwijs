@@ -34,6 +34,7 @@
         <li>Het omgaan met pesten</li>
         <li>Het verwerken van een scheiding</li>
         <li>Het makkelijker in slaap komen</li>
+        <li>Omgaan met prikkels (sensorische informatieverwerking)</li>
       </ul>
     </p>
     <h3>Hoe lang?</h3>
