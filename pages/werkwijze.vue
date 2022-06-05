@@ -18,6 +18,24 @@
           altijd en in alle situaties voor. We gebruiken de wijsheid van het
           kind, waardoor het zelfvertrouwen vergroot.
         </p>
+        <p>
+          Wanneer een kind moeite heeft met de sensorische informatieverwerking
+          wordt in kaart gebracht waar het kind moeite mee heeft door gebruik te
+          maken van een vragenlijst zodat de aanpak afgestemd kan worden op wat
+          het kind nodig heeft.
+        </p>
+        <p>Werkwijze JaMaRa rekenbegeleidin</p>
+        <p>
+          De eerste sessie is een onderzoeks-sessie. Er wordt gekeken welke
+          onderdelen de leerproblemen in de weg zitten. Na het bespreken van de
+          testjes wordt een behandelingsplan opgesteld.
+        </p>
+        <p>
+          Bij JAMARA is het de bedoeling dat uw kind 1 a 2 keer begeleiding
+          krijgt en oefent. Er wordt gekeken of er een volgende stap gezet kan
+          worden. Van ouders wordt verwacht dat zij iedere dag 5 tot 10 minuten
+          de geleerde stappen oefenen met het kind.
+        </p>
       </b-col>
     </b-row>
     <b-row>
