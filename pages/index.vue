@@ -16,6 +16,9 @@
       bij het kind en bij de hulpvraag. De hulp van ouders kan hierbij niet
       gemist worden.
     </p>
+    <p>
+      Kindwijskindercoaching biedt ook begeleiding bij het leren door middel van de JaMara rekenmethodiek. Deze methodiek is uniek en geschikt voor kinderen die veel moeite hebben met rekenen en waarbij zij het automatiseren maar niet onder controle lijken te krijgen. Wanneer u en de school al alles geprobeerd lijken te hebben en het rekenen bij uw kind nog steeds niet op gang komt. Jamara activeert het leervermogen door te zien, horen, voelen en bewegen. Er worden zo min mogelijke handelingen verricht en zo min mogelijke talige opdrachten gegeven. Ook wordt veel aandacht besteed aan het trainen van het werkgeheugen. Jamara leert als enige rekenmethodiek het kind de juiste denkstrategie aan om tot automatiseren te kunnen komen.
+    </p>
     <h3>Wie en waarom?</h3>
     <p>
       Kinderen tussen 5 en 16 jaar kunnen hier terecht bij het leren van de
