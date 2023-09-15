@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <div>2021 Copyright © Rosier kindercoaching | Kvk: 75873486</div>
+    <div>2023 Copyright © Rosier kindercoaching | Kvk: 75873486</div>
   </footer>
 </template>
 

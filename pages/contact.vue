@@ -6,7 +6,9 @@
         <p>
           <b>Adres</b> <br />
           Lijster 17 <br />
-          3191DM Hoogvliet Rotterdam
+          3191DM Hoogvliet Rotterdam <br />  <br />
+          Weyerland 25  <br />
+          3235RD Rockanje
         </p>
         <p>
           <b>Contactgegevens</b> <br />
