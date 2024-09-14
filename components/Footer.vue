@@ -1,8 +1,18 @@
 <template>
   <footer>
-    <div>2023 Copyright © Rosier kindercoaching | Kvk: 75873486</div>
+    <div>{{ currentYear }} Copyright © Rosier kindercoaching | Kvk: 75873486</div>
   </footer>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      currentYear: new Date().getFullYear() // Get the current year
+    }
+  }
+}
+</script>
 
 <style scoped>
 footer {
