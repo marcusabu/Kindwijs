@@ -1,9 +1,9 @@
 {
-  "name": "Kindwijs",
+  "name": "kindwijs",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "export NODE_OPTIONS=--openssl-legacy-provider &&  nuxt",
     "start": "nuxt",
     "build": "nuxt build",
     "start-build": "nuxt start",
