@@ -45,9 +45,7 @@
     </p>
     <h3>Waar?</h3>
     <p>
-      De begeleiding kan plaatsvinden bij mij in de praktijk in Hoogvliet
-      Rotterdam, indien gewenst bij u thuis of op de school van uw kind. Dit
-      laatste gebeurt wanneer de aanmelding via school verloopt.
+      De begeleiding kan plaatsvinden in mijn praktijk in Hoogvliet of in Rockanje. Indien gewenst, kan het bij u thuis of op de school van uw kind. Dit laatste gebeurt wanneer de aanmelding via school verloopt.
     </p>
     <b-row class="image-links">
       <b-col md="6" sm="12">
