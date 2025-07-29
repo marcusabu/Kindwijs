@@ -9,7 +9,7 @@
         <b>Tarieven kindercoaching en therapie</b>
         <div class="row">
           <div class="col-7">Intake gesprek</div>
-          <div class="col-5">€ 60 per gesprek</div>
+          <div class="col-5">€ 65 per gesprek</div>
         </div>
         <div class="row">
           <div class="col-7">Evaluatiegesprek</div>
@@ -17,7 +17,7 @@
         </div>
         <div class="row">
           <div class="col-7">Kindercoaching sessie</div>
-          <div class="col-5">€ 65 per uur</div>
+          <div class="col-5">€ 70 per uur</div>
         </div>
         <br />
         <b>Tarieven oudercoaching</b>
