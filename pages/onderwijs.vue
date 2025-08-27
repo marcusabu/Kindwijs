@@ -37,5 +37,38 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head() {
+    return {
+      title: 'Onderwijs',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Kindwijs biedt maatwerk kindercoaching op basisscholen in Rotterdam. Specialisatie in gedragsproblemen en leermoeilijkheden met Matrix methode. Samenwerking school-ouders-coach.',
+        },
+        {
+          hid: 'keywords',
+          name: 'keywords',
+          content:
+            'kindercoaching school, schoolbudget, Matrix methode onderwijs, gedragsproblemen school, leermoeilijkheden, IB begeleiding, maatwerk ondersteuning',
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content:
+            'Schoolbudget | Kindercoaching op School | Matrix Methode | Kindwijs Rotterdam',
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content:
+            'Professionele kindercoaching op basisscholen. Maatwerk ondersteuning voor leerlingen met specifieke behoeften.',
+        },
+      ],
+      link: [{ rel: 'canonical', href: 'https://kindwijs.nl/onderwijs' }],
+    }
+  },
+}
 </script>

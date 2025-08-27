@@ -2,7 +2,7 @@
   <div>
     <a :href="to">
       <h4>{{ text }}</h4>
-      <div class="image" v-bind:style="style" :alt="altText" />
+      <div class="image" :style="style" role="img" :aria-label="altText" />
     </a>
   </div>
 </template>
@@ -29,7 +29,13 @@ export default {
   },
   computed: {
     altText() {
-      return `${this.image} plaatje`
+      const descriptions = {
+        'Wanneer': 'Informatie over wanneer kindercoaching nodig is - hulp bij emotionele problemen en gedragsuitdagingen',
+        'Werkwijze': 'Ontdek de werkwijze van Kindwijs - oplossingsgerichte coaching en creatieve technieken',
+        'Over mij': 'Lees meer over Marie-Louise Rosier - gecertificeerd kindercoach met jarenlange ervaring',
+        'Contact': 'Contactinformatie en praktijklocaties Rotterdam en Rockanje - neem contact op'
+      }
+      return descriptions[this.text] || `Navigatie naar ${this.text} pagina`
     },
     style() {
       return {

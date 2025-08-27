@@ -38,5 +38,28 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head() {
+    return {
+      title: 'Wanneer Kindercoaching?',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Wanneer heeft uw kind kindercoaching nodig? Hulp bij emotionele problemen, echtscheiding, pesten, faalangst en planningsmoeilijkheden. Ook oudercoaching beschikbaar in Rotterdam.'
+        },
+        {
+          hid: 'keywords',
+          name: 'keywords',
+          content: 'wanneer kindercoaching, hulp emoties kinderen, faalangst, pesten, echtscheiding kinderen, oudercoaching Rotterdam, sociaal-emotionele ontwikkeling'
+        },
+        { hid: 'og:title', property: 'og:title', content: 'Wanneer Kindercoaching? | Hulp bij Angst, Pesten, Emoties | Kindwijs Rotterdam' },
+        { hid: 'og:description', property: 'og:description', content: 'Ontdek wanneer uw kind baat heeft bij kindercoaching. Hulp bij emoties, pesten, angst en andere uitdagingen.' }
+      ],
+      link: [
+        { rel: 'canonical', href: 'https://kindwijs.nl/wanneer' }
+      ]
+    }
+  }
+}
 </script>

@@ -1,0 +1,23 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://kindwijs.nl/sitemap.xml
+
+# Disallow admin areas (if any exist in the future)
+Disallow: /admin/
+Disallow: /*.json$
+Disallow: /api/
+
+# Allow important pages
+Allow: /
+Allow: /contact
+Allow: /tarieven
+Allow: /over-mij
+Allow: /wanneer
+Allow: /werkwijze
+Allow: /onderwijs
+
+# Allow assets
+Allow: /assets/
+Allow: /_nuxt/

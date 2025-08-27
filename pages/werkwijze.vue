@@ -5,7 +5,7 @@
       <b-col md="4">
         <img
           src="~assets/werkwijze2.webp"
-          alt="Werkwijze foto"
+          alt="Kindercoaching sessie - kind en coach werken samen aan oplossingen"
           style="max-height: 270px"
         />
       </b-col>
@@ -68,7 +68,7 @@
         <img
           class="werkwijze-foto"
           src="~assets/werkvormen.webp"
-          alt="Foto"
+          alt="Creatieve werkvormen: speltherapie, tekenen, knutselen en sandplay voor kindercoaching"
           style="max-height: 300px"
         />
       </b-col>
@@ -142,7 +142,40 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head() {
+    return {
+      title: 'Werkwijze',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content:
+            'Ontdek de werkwijze van Kindwijs: oplossingsgerichte coaching, JaMaRa rekenmethodiek, speltherapie, sandplay en creatieve technieken voor kinderen in Rotterdam.',
+        },
+        {
+          hid: 'keywords',
+          name: 'keywords',
+          content:
+            'JaMaRa rekenmethodiek, oplossingsgerichte coaching, speltherapie, sandplay, NLP kinderen, creatieve coaching, werkwijze kindercoaching',
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content:
+            'Werkwijze | JaMaRa Rekenmethodiek & Oplossingsgerichte Coaching | Kindwijs',
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content:
+            'Unieke combinatie van oplossingsgerichte coaching, JaMaRa rekenmethodiek en creatieve technieken voor optimale resultaten.',
+        },
+      ],
+      link: [{ rel: 'canonical', href: 'https://kindwijs.nl/werkwijze' }],
+    }
+  },
+}
 </script>
 
 <style scoped>

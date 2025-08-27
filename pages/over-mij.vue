@@ -24,7 +24,7 @@
             <img
               class="over-mij-foto"
               src="~assets/selfie.webp"
-              alt="Foto"
+              alt="Marie-Louise Rosier, gecertificeerd kindercoach en eigenaar van Kindwijs Kindercoaching"
               style="max-height: 300px"
             />
             </b-col>
@@ -100,5 +100,57 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head() {
+    return {
+      title: 'Over Mij | Marie-Louise Rosier',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Marie-Louise Rosier, gecertificeerd kindercoach met 30+ jaar ervaring in onderwijs. Opgeleid in Matrix Methode, Speltherapie, Creatieve Kindercoaching. Praktijken in Rotterdam en Rockanje.'
+        },
+        {
+          hid: 'keywords',
+          name: 'keywords',
+          content: 'Marie-Louise Rosier, kindercoach Rotterdam, matrix methode, speltherapie, creatieve kindercoaching, SEN gedragsspecialist, ervaren kindertherapeut'
+        },
+        { hid: 'og:title', property: 'og:title', content: 'Over Mij | Marie-Louise Rosier | Kindwijs Kindercoaching Rotterdam' },
+        { hid: 'og:description', property: 'og:description', content: 'Marie-Louise Rosier, gecertificeerd kindercoach met 30+ jaar ervaring. Gespecialiseerd in Matrix Methode, Speltherapie en Creatieve Kindercoaching.' }
+      ],
+      link: [
+        { rel: 'canonical', href: 'https://kindwijs.nl/over-mij' }
+      ],
+      script: [
+        {
+          type: 'application/ld+json',
+          json: {
+            '@context': 'https://schema.org',
+            '@type': 'Person',
+            'name': 'Marie-Louise Rosier',
+            'jobTitle': 'Gecertificeerd Kindercoach',
+            'description': 'Ervaren kindercoach gespecialiseerd in Matrix Methode, Speltherapie en Creatieve Kindercoaching',
+            'worksFor': {
+              '@type': 'LocalBusiness',
+              'name': 'Kindwijs Kindercoaching'
+            },
+            'hasCredential': [
+              'Master SEN Gedragsspecialist',
+              'Opleiding Kindercoach',
+              'Matrix Methode Certificering',
+              'Training Speltherapie',
+              'Opleiding Creatief Kindercoach'
+            ],
+            'alumniOf': [
+              'Seminarium voor Orthopedagogiek Utrecht',
+              'Tea Adema Kindercoach Opleiding',
+              'Matrix Methode Instituut',
+              'Intence Opleidingen'
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
 </script>

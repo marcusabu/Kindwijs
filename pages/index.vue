@@ -87,7 +87,30 @@
 <script>
 import ImageLink from '~/components/ImageLink.vue'
 export default {
-  components: { ImageLink },}
+  components: { ImageLink },
+  head() {
+    return {
+      title: 'Home',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Kindwijs kindercoaching in Rotterdam en Rockanje. Professionele hulp bij angsten, gedragsproblemen, leermoeilijkheden en emotionele uitdagingen. JaMara rekenmethodiek. Bel 06-38196507.'
+        },
+        {
+          hid: 'keywords',
+          name: 'keywords',
+          content: 'kindercoaching Rotterdam, kindertherapeut Hoogvliet, JaMara rekenen, angst kinderen, gedragsproblemen, Marie-Louise Rosier, speltherapie'
+        },
+        { hid: 'og:title', property: 'og:title', content: 'Kindwijs Kindercoaching Rotterdam | Professionele Begeleiding Kinderen 5-16 Jaar' },
+        { hid: 'og:description', property: 'og:description', content: 'Kindwijs kindercoaching in Rotterdam en Rockanje. Professionele hulp bij angsten, gedragsproblemen, leermoeilijkheden en emotionele uitdagingen.' }
+      ],
+      link: [
+        { rel: 'canonical', href: 'https://kindwijs.nl/' }
+      ]
+    }
+  }
+}
 </script>
 
 <style scoped>
